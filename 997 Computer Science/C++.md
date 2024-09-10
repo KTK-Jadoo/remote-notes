@@ -88,3 +88,72 @@ With that in mind, here’s what each of the options typically does:
 - **Run/start** executes the executable from a prior build. Some IDEs (e.g. Visual Studio) will invoke a “build” before doing a “run” to ensure you are running the latest version of your code. Otherwise (e.g. Code::Blocks) will just execute the prior executable.
 
 Although we talk informally about “compiling” our programs, to actually compile our programs we will typically choose the “build” (or “run”) option in our IDE to do so.
+
+
+## Basics
+
+There are many different kinds of statements in C++:
+
+- Declaration statements
+- Jump statements
+- Expression statements
+- Compound statements
+- Selection statements (conditionals)
+- Iteration statements (loops)
+- Try blocks
+
+Every C++ program must have a special function named **main** (all lower case letters). When the program is run, the statements inside of `main` are executed in sequential order.\
+
+```cpp
+#include <iostream>
+
+int main()
+{
+   std::cout << "Hello world!";
+   return 0;
+}
+```
+
+Line 1 is a special type of line called a preprocessor directive. This `#include` preprocessor directive indicates that we would like to use the contents of the `iostream` library, which is the part of the C++ standard library that allows us to read and write text from/to the console. We need this line in order to use `std::cout` on line 5. Excluding this line would result in a compile error on line 5, as the compiler wouldn’t otherwise know what `std::cout` is.
+
+Line 2 is blank, and is ignored by the compiler. This line exists only to help make the program more readable to humans (by separating the `#include` preprocessor directive and the subsequent parts of the program).
+
+Line 3 tells the compiler that we’re going to write (define) a function whose name (identifier) is `main`. As you learned above, every C++ program must have a `main` function or it will fail to link.
+
+Lines 4 and 7 tell the compiler which lines are part of the _main_ function. Everything between the opening curly brace on line 4 and the closing curly brace on line 7 is considered part of the `main` function. This is called the function body.
+
+Line 5 is the first statement within function `main`, and is the first statement that will execute when we run our program. `std::cout` (which stands for “character output”) and the `<<` operator allow us to display information on the console. In this case, we’re displaying the text “Hello world!”. This statement creates the visible output of the program.
+
+Line 6 is a return statement. When an executable program finishes running, the program sends a value back to the operating system in order to indicate whether it ran successfully or not. This particular return statement returns the value `0` to the operating system, which means “everything went okay!”. This is the last statement in the program that executes.
+
+
+A syntax error is a compiler error that occurs at compile-time when your program violates the grammar rules of the C++ language.
+
+__C++ Standard Library__: A library file is a collection of precompiled code that has been “packaged up” for reuse in other programs. The C++ Standard Library is a library that ships with C++. It contains additional functionality to use in your programs.
+
+#### Comments
+
+1. Single Line Comments: The `//` symbol begins a C++ single-line comment, which tells the compiler to ignore everything from the `//` symbol to the end of the line. For example:
+
+```cpp
+std::cout << "Hello world!"; // Everything from here to the end of the line is ignored
+```
+
+The single-line comment is used to make a quick comment about a single line of code.
+
+```cpp
+std::cout << "Hello world!\n"; // std::cout lives in the iostream library
+std::cout << "It is very nice to meet you!\n"; // these comments make the code hard to read
+std::cout << "Yeah!\n"; // especially when lines are different lengths
+```
+
+2. Multi-line comments: The `/*` and `*/` pair of symbols denotes a C-style multi-line comment. Everything in between the symbols is ignored.
+
+```cpp
+/* This is a multi-line comment.
+   This line will be ignored.
+   So will this one. */
+```
+
+
+
