@@ -29,5 +29,47 @@ function fib1(n)
 if n = 0: return 0
 if n = 1: return 1
 return fib1(n-1) + fib1(n-2)
+
+```
+
+```cpp
+#include <iostream>
+using namespace std;
+int fib(int x) {
+   if((x==1)||(x==0)) {
+      return(x);
+   }else {
+      return(fib(x-1)+fib(x-2));
+   }
+}
+int main() {
+   int x , i=0;
+   cout << "Enter the number of terms of series : ";
+   cin >> x;
+   cout << "\nFibonnaci Series : ";
+   while(i < x) {
+      cout << " " << fib(i);
+      i++;
+   }
+   return 0;
+}
+```
+[[Recurrence Relations|Recurrence relation]] of $F_n$, we see that $T(n) \ge F_n$ . This is very bad news: the running time of the algorithm grows as fast as the Fibonacci numbers! _T (n) is exponential in n_, which implies that the algorithm is impractically slow except for very small values of n.
+
+The running time of `fib1(n)` is proportional to $2^{0.694n}≈ (1.6)^n$ so it takes 1.6 times longer to compute $F_{n+1}$ than $F_n$. And under Moore’s law, computers get roughly 1.6 times faster each year.
+
+
+### 2. A Polynomial Algorithm
+
+A more sensible scheme would store the intermediate results— the values _$F_0, F_1, . . . , F_{n−1}$_ — as soon as they become known.
+
+```pcode
+function fib2(n) 
+if n = 0 return 0 
+create an array f[0 . . . n] 
+f[0] = 0, f[1] = 1 
+for i = 2 . . . n: 
+	f[i] = f[i − 1] + f[i − 2] 
+return f[n]
 ```
 
