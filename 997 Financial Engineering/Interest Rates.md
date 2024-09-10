@@ -51,7 +51,7 @@ Reference interest rates are important in financial markets. The parties to tran
 
 #### LIBOR 
 
-- is short for London Interbank Offered Rate. LIBOR rates have been compiled by asking a panel of global banks to provide quotes estimating the unsecured rates of interest at which they could borrow from other banks just prior to 11 a.m. (U.K. time). 
+- is short for _London Interbank Offered Rate_. LIBOR rates have been compiled by asking a panel of global banks to provide quotes estimating the unsecured rates of interest at which they could borrow from other banks just prior to 11 a.m. (U.K. time). 
 - Several different currencies and several different borrowing periods (ranging from one day to one year) were considered. The banks submitting quotes typically had good credit ratings. LIBOR rates were therefore considered to be estimates of unsecured borrowing rates for creditworthy banks. LIBOR rates have served as reference rates for hundreds of trillions of dollars of transactions throughout the world. 
 - For example, the borrowing rate on a five-year loan in a particular situation might be specified as three-month LIBOR plus 30 basis points (i.e., three-month LIBOR plus 0.3%). The value of three-month LIBOR would then be noted at the beginning of each three-month period and interest based on this LIBOR rate would be paid by the borrower at the end of the period. 
 - A problem with LIBOR is that there is not enough borrowing between banks for a bank’s estimates to be determined by market transactions. As a result, LIBOR submissions by banks involved a certain amount of judgment and could be subject to manipulation. Bank regulators are uncomfortable with this and have developed plans to phase out the use of LIBOR. 

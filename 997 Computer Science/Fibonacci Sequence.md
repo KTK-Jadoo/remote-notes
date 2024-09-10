@@ -18,7 +18,7 @@ $$F_{n} =
       0, \text{ if } n = 1 \\
    \end{cases}
 $$
-## Algorithms for Fibonacci Calculation
+## [[Analysis of Algorithms|Algorithms]] for Fibonacci Calculation
 
 ### 1. An Exponential Algorithm
 
@@ -30,5 +30,4 @@ if n = 0: return 0
 if n = 1: return 1
 return fib1(n-1) + fib1(n-2)
 ```
-
 
