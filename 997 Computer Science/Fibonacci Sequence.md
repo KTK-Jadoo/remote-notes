@@ -73,3 +73,7 @@ for i = 2 . . . n:
 return f[n]
 ```
 
+
+(echo; echo 'eval "$(/opt/homebrew/bin/brew shellenv)"') >> /Users/jadoo/.zprofile
+
+    eval "$(/opt/homebrew/bin/brew shellenv)"
