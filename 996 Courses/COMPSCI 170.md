@@ -6,11 +6,10 @@ tags:
   - math
 teacher: Prasad Raghavendra, Sanjam Garg
 ---
-# Efficient Algorithms and Intractable Problem
+# Efficient Algorithms and Intractable Problems
 
 ___Course Description___
 CS 170 is Berkeley’s introduction to the theory of computer science. In CS 170, we will study the design and analysis of graph algorithms, greedy algorithms, dynamic programming, linear programming, fast matrix multiplication, Fourier transforms, number theory, complexity, and NP-completeness.
-
 
 ## Course Schedule
 
