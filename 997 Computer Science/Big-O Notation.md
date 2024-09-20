@@ -5,40 +5,71 @@ tags:
 date: 2024-05-29
 source: "[[COMPSCI 170]]"
 ---
-Taking the [[Fibonacci Sequence]] as an example, when designing an algorithm we need to see:
+
+A way to approximately measure the runtime of an algorithm. 
+
+Let $T[n]$ be the time taken by an algorithm on an input $n$.
+- Depends on computer, processor, language etc
+
+>[!note] Formal Definition of Big-O Notation
+>Let $f:\mathbb{N}\rightarrow\mathbb{N}$ and $g:\mathbb{N}\rightarrow\mathbb{N}$
+>We say that $f = O(g) \iff$ f grows no faster than g $\iff$ f is almost $C \cdot g$ so, $\exists$ constant $C$ s.t $$f(n) \le C \cdot g(n)$$
 
 
-Let $T[n]$ = time taken on input of size n  
-
-Approximate since different hardware can have different results
-
-Function $f:N\to N$ and $g: N \to N$
-so,
-$f = O(g)$
-F grows no faster than g
-f is almost C . g
-
-$\exists C :  f(n) \le C. g(n), \forall n$
-
-#### Observations
-- Poly (n) = O($n^{degree}$)
-- $n^3$ = $O(n^4)$ (n cube grows no faster than n^4)
+Observations on common functions:
+- $poly(n) = O(n^{degree})$
+- $n^{3}=O(n^{4}) \iff \space n^{3} \text{ grows no faster than } n^{4}$
+- Any polynomial in n $= O(2^{n})$
+- $\log(n) = O(\text{any polynomial in n})$
 
 
-F = theta(g)
-if f = O(g)  AND g = O(f)
-f ~ g
+>[!note] Formal Definition of $\Theta$ Notation
+>We say $f=\Theta(g)$ ,
+>if $f=O(g)$ AND $g=O(f) \iff f\approx g$
 
 
-Back to fibonnaci
+>[!note] Formal Definition of $\Omega$ Notation
+>We say $f=\Omega(g) \iff f = O(g)$ 
 
-Making tree diagram
+Taking the [[Fibonacci Sequence#An Exponential Algorithm|Recursive Fibonacci]] as an example,
 
-n depth
-T(n) = # of function calls
+![[Screenshot 2024-09-19 at 11.00.33 PM.png]]
 
+If $T[n]$ is the number of function calls in execution of F(n),
 
+- How many nodes are in this tree? 
+	-  # Nodes (n) = # Nodes (n-1 subtree) + # Nodes (n-2 subtree)
 
+$$T[n] = T[n-1] +T[n-2]+1$$
+
+- Calculate [[Recurrence Relations]], or take a guess: $T[n] =$ exponential in $n$.
+
+This is because there are a lot of repeated nodes. We should __reuse the computation__.
+
+So intuitively the [[Fibonacci Sequence|Iterative Fibonacci]],
+
+```python
+def fib2(n):
+    if n == 0:
+        return 0
+    # Create an array to store Fibonacci numbers
+    f = [0] * (n + 1)
+    f[0] = 0
+    f[1] = 1
+
+    # Loop to calculate Fibonacci numbers
+    for i in range(2, n + 1):
+        f[i] = f[i - 1] + f[i - 2]
+
+    # Return the nth Fibonacci number
+    return f[n]
+```
+
+$$T[n] = \text{Time taken to create array} + \text{n} \cdot \text{(addition time)}$$
+$$T[n] = O(n) \text{, if (addition time)} = O(1)$$
+
+But what about space?
+- 
 ### Problem solving tips
 
 __Discussion 1__:
