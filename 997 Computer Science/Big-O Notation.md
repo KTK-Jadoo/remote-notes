@@ -31,6 +31,32 @@ Observations on common functions:
 >[!note] Formal Definition of $\Omega$ Notation
 >We say $f=\Omega(g) \iff f = O(g)$ 
 
+
+
+- f(n) = O(g(n)) if there exists some c such that for large n, f(n) c*g(n)
+    
+	- If nf(n)g(n) < , then f(n) = O(g(n)) 
+    
+
+- g(n) grows at a faster rate than f(n)
+    
+
+- f(n) = (g(n)) if there exists some c such that for large n, f(n) = c*g(n) 
+    
+
+- If nf(n)g(n) = c then f(n) =  (g(n))
+    
+
+- g(n) and f(n) grow at the same rate
+    
+
+- f(n) = g(n) if there exists some c such that f(n) cg(n) 
+    
+
+- If nf(n)g(n) > 0 then f(n) = g(n)
+    
+
+- f(n) grows at a faster rate than g(n)
 ---
 ### Example: The Fibonacci Sequence
 
