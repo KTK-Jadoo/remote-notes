@@ -7,10 +7,13 @@ source: "[[COMPSCI 170]]"
 ---
 # Definition
 
-- [9] A way to approximately measure the runtime of an algorithm. 
+A way to approximately measure the runtime of an algorithm. 
 
 Let $T[n]$ be the time taken by an algorithm on an input $n$.
 - Depends on computer, processor, language etc
+
+
+### $O$ Notation
 
 >[!note] Formal Definition of Big-O Notation
 >Let $f:\mathbb{N}\rightarrow\mathbb{N}$ and $g:\mathbb{N}\rightarrow\mathbb{N}$
@@ -23,41 +26,19 @@ Observations on common functions:
 - $\log(n) = O(\text{any polynomial in n})$
 
 
+### $\Theta$ Notation
+
 >[!note] Formal Definition of $\Theta$ Notation
 >We say $f=\Theta(g)$ ,
 >if $f=O(g)$ AND $g=O(f) \iff f\approx g$
 
 
+### $\Omega$ Notation
+
 >[!note] Formal Definition of $\Omega$ Notation
 >We say $f=\Omega(g) \iff f = O(g)$ 
 
 
-
-- f(n) = O(g(n)) if there exists some c such that for large n, f(n) c*g(n)
-    
-	- If nf(n)g(n) < , then f(n) = O(g(n)) 
-    
-
-- g(n) grows at a faster rate than f(n)
-    
-
-- f(n) = (g(n)) if there exists some c such that for large n, f(n) = c*g(n) 
-    
-
-- If nf(n)g(n) = c then f(n) =  (g(n))
-    
-
-- g(n) and f(n) grow at the same rate
-    
-
-- f(n) = g(n) if there exists some c such that f(n) cg(n) 
-    
-
-- If nf(n)g(n) > 0 then f(n) = g(n)
-    
-
-- f(n) grows at a faster rate than g(n)
----
 ### Example: The Fibonacci Sequence
 
 $$0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . . ,$$
@@ -97,7 +78,7 @@ $$T[n] = T[n-1] +T[n-2]+1$$
 
 - Calculate [[Recurrence Relations]], or take a guess: $T[n] =$ exponential in $n$.
 
-- [9] This is because there are a lot of repeated nodes. We should __reuse the computation__.
+This is because there are a lot of repeated nodes. We should __reuse the computation__.
 
 So intuitively the _Iterative Fibonacci Sequence_,
 
@@ -120,9 +101,8 @@ def fib2(n):
 
 $$T[n] = \text{Time taken to create array} + \text{n} \cdot \text{(addition time)}$$
 $$T[n] = O(n \cdot \text{Time for one addition})$$[[Integer Multiplication]] goes into how Time for addition is calculated.
----
 
-### Problem solving tips
+### Calculating Runtime
 
 __Discussion 1__:
  
@@ -173,37 +153,3 @@ Runtime of recursive functions:
 - Last term = processing time
 
 
-### Master's Theorem
-
-
-\# Layer's: $log_{b}(n)$
-\# Leaves : $a^{\#layers}$= solves to $n^{log_{b}(a)}$
-
-- Top recursive layer dominates 
-- $O(n^{d})log(n)$
-- bottom layer dominates
-
-![[dis01.pdf#page=3&rect=60,261,512,463]]
-
-(a)
-\#layers = $log_{2}(n)$
-\#leaves = $2^{\# layers}$ = $2^{log_{2}(n)}$=$n^{log_{2}(2)}$=n
-
-d = 1`
-
-Therefore Using Master's Theorem:
-
-$T(n) = O (n log(n))$
-
-
-
-
-(b)
-
-Series expansion
-T[n] = 1+2+3 ... n
-
-n(n+1)/2
-T(n) O(n^2)
-\#layer = $log(n-1)$
-\#leaves = 

@@ -7,7 +7,8 @@ source: "[[COMPSCI 170]]"
 ---
 Most architectures don't support $>64$ bit integers. Eg Cryptography
 
-### Integer Addition
+## Integer Addition
+
 Suppose we take a fixed __Integer__ ($64$bit):
 - To store $f(n)$, each addition is one machine instruction ($O(1)$), so
 $$T(n) = O(n)$$
@@ -18,7 +19,8 @@ But, how many bits long will the $n^{th}$ Fibonacci number be?
 So, we need [[Python Data Structures|Big Integer]] data type (stored as a sequence of digits in an [[Python Data Structures|array]]).
 
 
-### Integer Multiplication
+## Integer Multiplication
+
 Input: 2 n-digit Big Integers, $a, b$ 
 Goal: $c = a \times b$, where $c$ is a 2n-digit number
 
@@ -74,6 +76,7 @@ $$= O\left( C \cdot n \cdot \frac{3^{\log n}}{2^{\log n}} \right)$$
 - [2] $2^{\log n} = n$
 $$= O(n^{\log 3}) \approx O(n^{1.7})$$
 #### Karatsuba's Algorithm
+
 $$a \cdot b = 10^{\frac{n}{2}}a_{L}b_{L} + 10^{\frac{n}{2}}[a_{L}b_{R}+a_{R}b_{L}] + a_{R}b_{R}$$
 $$= 10^{\frac{n}{2}}a_{L}b_{L} + 10^{\frac{n}{2}}[(a_{L}+a_{R})(b_{L}+b_{R})-a_{L}b_{L} -a_{R}b_{R}] + a_{R}b_{R}$$
 
