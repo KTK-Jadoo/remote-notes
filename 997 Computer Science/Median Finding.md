@@ -23,7 +23,7 @@ It outputs the $k^{th}$ smallest number in the list. Note,
 
 $$Median(L) = SELECT(L, n/2)$$
 
-### Recursive SELECT
+### Recursive Randomized SELECT
 
 1. Pick a pivot element $v  \in \{a_{1}, a_{2}, ..a_{n}\}$ at random.
 2. Split L into 3 parts, we know the _lengths_ of these parts. This operation takes $O(n)$ time.
@@ -40,4 +40,4 @@ So the runtime is actually the [[Expecta|expected]] runtime:
 
 $$T[n]=\text{Expected runtime}$$
 
-
+Runtime:

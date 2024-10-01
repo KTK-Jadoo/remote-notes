@@ -211,6 +211,7 @@ HAVING COUNT (*) > 30;
 Similarly to SELECT clauses, each attribute mentioned in a HAVING clause
 must either be part of the GROUP BY or be aggregated.
 
+
 ## Symbols and Additional Keywords
 
 ### The asterisk (`*`)
