@@ -102,6 +102,14 @@ def fib2(n):
 $$T[n] = \text{Time taken to create array} + \text{n} \cdot \text{(addition time)}$$
 $$T[n] = O(n \cdot \text{Time for one addition})$$[[Integer Multiplication]] goes into how Time for addition is calculated.
 
+## Asymptotic Limit Rules
+
+- If $\lim_{ n \to \infty } \frac{f(n)}{g(n)} = 0,$ then $f(n) = O(g(n))$
+- If $\lim_{ n \to \infty } \frac{f(n)}{g(n)} = c,$ where $c \gt 0,$ then $f(n) = \Theta(g(n))$
+- If $\lim_{ n \to \infty } \frac{f(n)}{g(n)} = \infty,$ then $f(n) = \Omega(g(n))$
+
+
+
 ### Calculating Runtime
 
 __Discussion 1__:

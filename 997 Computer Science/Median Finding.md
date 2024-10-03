@@ -4,7 +4,7 @@ tags:
 date: 2024-09-21
 source: "[[COMPSCI 170]]"
 ---
-__Median of a list:__  The $\left[ \frac{n}{2} \right]^\text{th}$ smallest number in a list of $n$ numbers.
+092__Median of a list:__  The $\left[ \frac{n}{2} \right]^\text{th}$ smallest number in a list of $n$ numbers.
 
 Given an unsorted list of size $n$, finding the median of the list.
 
@@ -38,6 +38,33 @@ $$Median(L) = SELECT(L, n/2)$$
 This algorithm is _randomized_, it's runtime depends on how lucky the guess is.
 So the runtime is actually the [[Expecta|expected]] runtime:
 
+Best Case: $O(n)$
+Worst Case: $\Theta(n^2)$
+
 $$T[n]=\text{Expected runtime}$$
 
-Runtime:
+The runtime is a random variable, we want to compute it's expectation.
+$$\mathbb{E}[X] = \sum P[X=a]\cdot a$$
+
+There is a _good chance_ the pivot will break the list into significantly smaller lists.
+
+A Good Pivot is one which lies between the $\frac{n}{4}^\text{th}$ smallest and the $\frac{3n}{4}^\text{th}$ smallest term.
+
+1) Every good pivot breaks the list into lists smaller than $\frac{3n}{4}$.
+2) $P[Selected \space Good \space Pivot] = 0.5$
+
+$$T[n]=\text{Expected runtime}$$$$ = (\text{Expected runtime BEFORE first good pivot})+\text{Expected runtime AFTER first good pivot}$$
+By linearity of expectation. So, Expected runtime before first good pivot
+
+$$= \text{Expected \# of pivots before good pivot} \cdot n$$
+$$= \text{Expected \# of coin tosses before seeing Heads} \cdot n$$
+$$\le 2 \cdot n$$
+
+\Expected runtime AFTER first good pivot $\le T\left[ \frac{3n}{4} \right]$
+
+So, 
+
+$$T[n]\le T\left[ \frac{3n}{4} \right] + \Theta(n)$$
+Then by [[Master Theorem]],
+
+$$T[n] = \Theta(n)$$
