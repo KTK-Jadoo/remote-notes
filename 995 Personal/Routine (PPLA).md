@@ -18,6 +18,13 @@ Push: (__Friday__)
 4. Cable Lateral Raise
 5. Tricep Pushdown
 
+Arms: (__Wednesday__)
+1. Bicep Cable Curl
+2.  Hammer Curls
+3. Tricep Pushdowns
+4. Dumbbell Lateral Raise
+5. Preacher Curls
+
 Legs: (__Monday__)
 1. Leg Press
 2. Leg Curls
@@ -25,12 +32,6 @@ Legs: (__Monday__)
 4. Hip Thrust
 5. Calves
 
-Arms: (__Wednesday__)
-1. Bicep Cable Curl
-2.  Hammer Curls
-3. Tricep Pushdowns
-4. Dumbbell Lateral Raise
-5. Preacher Curls
 
 
 ---
@@ -55,6 +56,13 @@ Push: (__Friday__)
 5. Barbell Overhead Press
 6. Chest Flies
 
+Arms: (__Wednesday__)
+1. Bicep Cable Curl
+2.  Hammer Curls
+3. Tricep Pushdowns
+4. Dumbbell Lateral Raise
+5. Preacher Curls
+
 Legs:(__Monday__)
 1. Barbell Squats
 2. Leg Curls
@@ -62,12 +70,7 @@ Legs:(__Monday__)
 4. Hyperextension
 5. Adductor / Abductor
 
-Arms: (__Wednesday__)
-1. Bicep Cable Curl
-2.  Hammer Curls
-3. Tricep Pushdowns
-4. Dumbbell Lateral Raise
-5. Preacher Curls
+
 
 
 ---

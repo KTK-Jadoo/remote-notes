@@ -16,7 +16,7 @@ CS 170 is Berkeley’s introduction to the theory of computer science. In CS 170
 1. [[Big-O Notation]], [[Recurrence Relations]]
 2. [[Integer Multiplication]], [[Master Theorem]]
 3. [[Matrix Multiplication]], [[Median Finding]]
-4. [[Divide and Conquer Examples|Divide and Conquer Algorithms]]
+4. [[Divide and Conquer Paradigm|Divide and Conquer]]
 5. [[DFS]], [[Topological sort]]
 6. [[Strongly Connected Components]]
 7. [[Graphs|Paths in Graphs]]
