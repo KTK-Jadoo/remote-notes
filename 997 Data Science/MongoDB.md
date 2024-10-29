@@ -101,3 +101,15 @@ The dot "." is used to drill deeper into nested objects/arrays
 	- n is the n-th value (0-indexed) in the <expr> array
 
 Note: For mongo CLI, the dot notation expression must be in quotes [[link](https://www.mongodb.com/docs/v7.0/tutorial/query-arrays/#query-for-an-element-by-the-array-index-position)].
+
+
+collection.find(predicate, projection) 
+
+- The optional projection parameter indicates the fields to in/exclude in each document of the output collection.
+    
+
+- 1s: indicate fields that you want, OR
+    
+- 0s: indicate fields that you don’t want.
+    
+- Exception: the primary key _id is always present unless explicitly excluded.
