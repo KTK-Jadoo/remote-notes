@@ -33,9 +33,9 @@ The class will balance foundational concerns with exposure to practical language
 14. [[Data Preparation III: Outliers]]
 15. [[Data Preparation IV: Imputation, Entity Resolution]]
 16. [[Normalization + ER]]
-17. [[Semistructured Data: NoSQL, JSON, XML]]
-18. [[MongoDB I]]
-19. [[MongoDB II]]
+17. [[Semistructured Data|Semistructured Data: NoSQL, JSON, XML]]
+18. [[MongoDB|MongoDB I]]
+19. [[MongoDB|MongoDB II]]
 20. Q & A
 21. [[Transactions and TCL]]
 22. [[Data Pipelines]]

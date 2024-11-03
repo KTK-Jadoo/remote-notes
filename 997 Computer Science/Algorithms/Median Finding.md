@@ -4,7 +4,7 @@ tags:
 date: 2024-09-21
 source: "[[COMPSCI 170]]"
 ---
-092__Median of a list:__  The $\left[ \frac{n}{2} \right]^\text{th}$ smallest number in a list of $n$ numbers.
+__Median of a list:__  The $\left[ \frac{n}{2} \right]^\text{th}$ smallest number in a list of $n$ numbers.
 
 Given an unsorted list of size $n$, finding the median of the list.
 
