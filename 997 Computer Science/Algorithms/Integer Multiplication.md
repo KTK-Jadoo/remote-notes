@@ -46,19 +46,6 @@ where $C$ is some constant.
 
 ![[Screenshot 2024-09-20 at 9.58.30 PM.png]]
 
-```data
-|     # Nodes     |      # Work Done per Node      |
-|:---------------:|:------------------------------:|
-|       $1$       |          $C \cdot n$           |
-|       $4$       |     $C \cdot \frac{n}{2}$      |
-|      $16$       |     $C \cdot \frac{n}{4}$      |
-|        .        |               .                |
-|        .        |               .                |
-|        .        |               .                |
-|     $4^{k}$     |    $C \cdot \frac{n}{2^k}$     |
-| $4^{\log_{2}n}$ | $C \cdot \frac{n}{2^{\log n}}$ |
-```
-
 Total work done: $$1 \cdot C \cdot n + 4\left( C \cdot \frac{n}{2} \right) + \dots 4^{k}\left( C \cdot \frac{n}{2^{k}} \right) + 4^{\log n} \left( C \cdot \frac{n}{2^{\log n}} \right)$$
 - [1]  Sum of $n$ term Geometric Progression $\approx O \text{ (last term / largest term)}$. Largest term if ratio $r \gt 1$.
 
