@@ -2,6 +2,7 @@
 source: https://classes.berkeley.edu/content/info-188
 tags:
   - info
+  - class
 teacher: Deirdre Mulligan
 ---
 # Beyond the Data: Humans and Ethics

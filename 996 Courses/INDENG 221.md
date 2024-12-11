@@ -3,6 +3,7 @@ source: https://classes.berkeley.edu/content/2024-fall-indeng-221-001-lec-001
 tags:
   - "#finance"
   - "#stats"
+  - class
 teacher: Lizeng Zhang
 ---
 # Introduction to Financial Engineering

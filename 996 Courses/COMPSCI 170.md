@@ -2,8 +2,7 @@
 source: https://cs170.org/
 tags:
   - algorithms
-  - "#graph"
-  - math
+  - "#class"
 teacher: Prasad Raghavendra, Sanjam Garg
 ---
 # Efficient Algorithms and Intractable Problems
@@ -31,4 +30,3 @@ CS 170 is Berkeley’s introduction to the theory of computer science. In CS 170
 16. [[NP-Completeness]]
 17. [[Reductions]]
 18. [[Coping with NP-Completeness]]
-

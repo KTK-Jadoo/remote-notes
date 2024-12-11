@@ -1,5 +1,6 @@
 ---
-tags: 
+tags:
+  - class
 website: 
 teacher:
 ---

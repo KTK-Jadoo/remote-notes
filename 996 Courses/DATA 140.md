@@ -1,6 +1,8 @@
 ---
 tags:
   - "#probability"
+  - data
+  - class
 website: http://prob140.org/
 teacher: Ani Adhikari
 ---

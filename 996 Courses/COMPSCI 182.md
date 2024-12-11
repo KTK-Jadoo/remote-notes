@@ -1,6 +1,7 @@
 ---
 tags:
   - "#deeplearning"
+  - "#class"
 website: https://inst.eecs.berkeley.edu/~cs182/sp23/
 teacher: Anant Sahai
 ---

@@ -1,7 +1,7 @@
 ---
 tags:
-  - deeplearning
   - math
+  - class
 website: 
 teacher:
 ---

@@ -97,19 +97,3 @@ Usually code-centric (Spark)
 - ML models: Constantly yielding predictions.
 - Compare old predictions to new predictions?
 
-### Themes
-Data Models: found and designed
-- (Non-)Equivalences and transformations
-
-Data Assessment, Quality, Integrity
-- Structural, distributional, constraint-based
-
-Data Transformation
-- Operations, languages, systems, interfaces
-- Efficiency and scale
-
-Serving multiple tasks and personas
-- From creative to statistical to industrialized
-- Governance and Agility
-
-Automation

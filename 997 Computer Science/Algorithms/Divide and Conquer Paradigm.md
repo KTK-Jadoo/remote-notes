@@ -48,7 +48,7 @@ Divide and Conquer Approach:
 - Split array into 2 halves.
 	- $a_{L}, a_{R}$ 
 - Recurse:
-	- $d_{L}$ -> BinarytoDecimal($a_{L}$)\
+	- $d_{L}$ -> BinarytoDecimal($a_{L}$)
 	- $d_{R}$ -> BinarytoDecimal($a_{R}$)
 	- c => $EXP(2,n/2)$
 - Combine:
