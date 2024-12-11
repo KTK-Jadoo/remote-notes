@@ -1,24 +1,23 @@
 ---
-title: "Binary Search - Algorithms for Competitive Programming"
-source: "https://cp-algorithms.com/num_methods/binary_search.html"
-author:
-published:
+title: Binary Search - Algorithms for Competitive Programming
+source: https://cp-algorithms.com/num_methods/binary_search.html
+published: 
+author: 
 created: 2024-12-10
-description: "The goal of this project is to translate the wonderful resource http://e-maxx.ru/algo which provides descriptions of many algorithms and data structures especially popular in field of competitive programming. Moreover we want to improve the collected knowledge by extending the articles and adding new articles to the collection."
+description: The goal of this project is to translate the wonderful resource http://e-maxx.ru/algo which provides descriptions of many algorithms and data structures especially popular in field of competitive programming. Moreover we want to improve the collected knowledge by extending the articles and adding new articles to the collection.
 tags:
-  - "clippings"
+  - clippings
+  - algorithms
 ---
-%0A%0A**Problem%3A**%0A%3C!--%0ADescribe%20the%20issue%20of%20this%20article%20in%20detail.%0A--%3E%0A "Report a problem")Last update: July 21, 2024  [Original](https://cp-algorithms.com/tags.html#original)
 
 **Binary search** is a method that allows for quicker search of something by splitting the search interval into two. Its most common application is searching values in sorted arrays, however the splitting idea is crucial in many other typical tasks.
 
-## Search in sorted arrays¶
+## Search in sorted arrays
 
 The most typical problem that leads to the binary search is as follows. You're given a sorted array , check if is present within the sequence. The simplest solution would be to check every element one by one and compare it with (a so-called linear search). This approach works in , but doesn't utilize the fact that the array is sorted.
 
 ![](https://upload.wikimedia.org/wikipedia/commons/8/83/Binary_Search_Depiction.svg)  
-*Binary search of the value in an array*.  
-*The [image](https://commons.wikimedia.org/wiki/File:Binary_Search_Depiction.svg) by [AlwaysAngry](https://commons.wikimedia.org/wiki/User:AlwaysAngry) is distributed under [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/deed.en)* license.
+
 
 Now assume that we know two indices such that . Because the array is sorted, we can deduce that either occurs among or doesn't occur in the array at all. If we pick an arbitrary index such that and check whether is less or greater than . We have two possible cases:
 
@@ -41,7 +40,7 @@ It is often convenient to find the position of the first element that is greater
 
 Together, lower and upper bounds produce a possibly empty half-interval of the array elements that are equal to . To check whether is present in the array it's enough to find its lower bound and check if the corresponding element equates to .
 
-### Implementation¶
+### Implementation
 
 The explanation above provides a rough description of the algorithm. For the implementation details, we'd need to be more precise.
 
@@ -70,7 +69,7 @@ During the execution of the algorithm, we never evaluate neither nor , as . In t
 
 **Note.** Calculating `m` as `m = (r + l) / 2` can lead to overflow if `l` and `r` are two positive integers, and this error lived about 9 years in JDK as described in the [blogpost](https://ai.googleblog.com/2006/06/extra-extra-read-all-about-it-nearly.html). Some alternative approaches include e.g. writing `m = l + (r - l) / 2` which always works for positive integer `l` and `r`, but might still overflow if `l` is a negative number. If you use C++20, it offers an alternative solution in the form of `m = std::midpoint(l, r)` which always works correctly.
 
-## Search on arbitrary predicate¶
+## Search on arbitrary predicate
 
 Let be a boolean function defined on such that it is monotonously increasing, that is
 
@@ -91,7 +90,7 @@ while (r - l > 1) {
 }
 ```
 
-### Binary search on the answer¶
+### Binary search on the answer
 
 Such situation often occurs when we're asked to compute some value, but we're only capable of checking whether this value is at least . For example, you're given an array and you're asked to find the maximum floored average sum
 
@@ -101,7 +100,7 @@ Equivalently, it rewrites as
 
 so now we need to check whether there is a subarray of a new array of length at least with non-negative sum, which is doable with some prefix sums.
 
-## Continuous search¶
+## Continuous search
 
 Let be a real-valued function that is continuous on a segment .
 
@@ -111,13 +110,13 @@ The value could be approximated up to in time for any specific value of . The id
 
 For example, let . Then and with and . Which means that it is always possible to find sufficiently small and sufficiently large such that and . Then, it is possible to find with binary search arbitrarily small interval containing such that .
 
-## Search with powers of 2¶
+## Search with powers of 2
 
 Another noteworthy way to do binary search is, instead of maintaining an active segment, to maintain the current pointer and the current power . The pointer starts at and then on each iteration one tests the predicate at point . If the predicate is still , the pointer is advanced from to , otherwise it stays the same, then the power is decreased by .
 
 This paradigm is widely used in tasks around trees, such as finding lowest common ancestor of two vertices or finding an ancestor of a specific vertex that has a certain height. It could also be adapted to e.g. find the \-th non-zero element in a Fenwick tree.
 
-## Practice Problems¶
+## Practice Problems
 
 - [LeetCode - Find First and Last Position of Element in Sorted Array](https://leetcode.com/problems/find-first-and-last-position-of-element-in-sorted-array/)
 - [LeetCode - Search Insert Position](https://leetcode.com/problems/search-insert-position/)
@@ -134,14 +133,3 @@ This paradigm is widely used in tasks around trees, such as finding lowest commo
 - [Codeforces - Enduring Exodus](https://codeforces.com/problemset/problem/645/C)
 - [Codeforces - Chip 'n Dale Rescue Rangers](https://codeforces.com/problemset/problem/590/B)
 
-Contributors:
-
-- [adamant-pwn](https://github.com/adamant-pwn "adamant-pwn") (80.77%)
-- [jakobkogler](https://github.com/jakobkogler "jakobkogler") (7.69%)
-- [RomanSteinberg](https://github.com/RomanSteinberg "RomanSteinberg") (3.21%)
-- [jxu](https://github.com/jxu "jxu") (2.56%)
-- [100godmoon](https://github.com/100godmoon "100godmoon") (1.92%)
-- [iAngkur](https://github.com/iAngkur "iAngkur") (1.92%)
-- [Draac0](https://github.com/Draac0 "Draac0") (0.64%)
-- [mbordia-eightfold](https://github.com/mbordia-eightfold "mbordia-eightfold") (0.64%)
-- [twfksh](https://github.com/twfksh "twfksh") (0.64%)

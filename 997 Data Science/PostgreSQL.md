@@ -10,10 +10,7 @@ PostgreSQL is a free open source [[Database Management Systems|object-relational
 - psql: CLI
 - jupysql: Python package that supports Postgres queries.
 
-
 ![[Screenshot 2024-09-03 at 9.51.58 AM.png]]
-
-
 ### psql
 
 psql -h localhost -d imdb_lecture

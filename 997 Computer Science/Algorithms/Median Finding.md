@@ -60,7 +60,7 @@ $$= \text{Expected \# of pivots before good pivot} \cdot n$$
 $$= \text{Expected \# of coin tosses before seeing Heads} \cdot n$$
 $$\le 2 \cdot n$$
 
-\Expected runtime AFTER first good pivot $\le T\left[ \frac{3n}{4} \right]$
+$E$ [runtime AFTER first good pivot] $\le T\left[ \frac{3n}{4} \right]$
 
 So, 
 

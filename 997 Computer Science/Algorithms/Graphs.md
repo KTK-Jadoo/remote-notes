@@ -27,17 +27,8 @@ $$m \lt n^2$$
 
 An $n \times n$ matrix where the $i,j^\text{th}$ entry indicates if there is an edge between $i$ and $j$. $(0 \text{ or }1)$
 
-
 ## Adjacency List
 
 A LinkedList of neighbors for every vertex. 
-
 Out edges only for directed graph.
 
-
-
-### Connectivity
-
-#### DFS
-
-Visited = [ ]

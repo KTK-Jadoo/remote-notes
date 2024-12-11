@@ -14,7 +14,7 @@ Suppose we take a fixed __Integer__ ($64$bit):
 $$T(n) = O(n)$$
 But, how many bits long will the $n^{th}$ Fibonacci number be?
 
-- [1] Any number $X$ is __$\log _{2} X$__ bits long. 
+- ! Any number $X$ is __$\log _{2} X$__ bits long. 
 
 So, we need [[Python Data Structures|Big Integer]] data type (stored as a sequence of digits in an [[Python Data Structures|array]]).
 
@@ -47,20 +47,20 @@ where $C$ is some constant.
 ![[Screenshot 2024-09-20 at 9.58.30 PM.png]]
 
 Total work done: $$1 \cdot C \cdot n + 4\left( C \cdot \frac{n}{2} \right) + \dots 4^{k}\left( C \cdot \frac{n}{2^{k}} \right) + 4^{\log n} \left( C \cdot \frac{n}{2^{\log n}} \right)$$
-- [1]  Sum of $n$ term Geometric Progression $\approx O \text{ (last term / largest term)}$. Largest term if ratio $r \gt 1$.
+- ! Sum of $n$ term Geometric Progression $\approx O \text{ (last term / largest term)}$. Largest term if ratio $r \gt 1$.
 
 
 So, applying to the problem at hand,$$= O\left( C \cdot n \cdot \frac{4^{\log n}}{2^{\log n}} \right)$$
-- [2] $2^{\log n} = n$
+- ! $2^{\log n} = n$
 $$ = O(C \cdot n \cdot n) = O(n^{2})$$
 Still same as grade school Multiplication, however, we can it faster. Change n-digit multiplication, to 3 n/2 digit multiplications. 
 
 __Karatsuba's Algorithm__ would run in:
 
 $$= O\left( C \cdot n \cdot \frac{3^{\log n}}{2^{\log n}} \right)$$
-- [2] $a^{\log b} = b^{\log a}$
+- ! $a^{\log b} = b^{\log a}$
 
-- [2] $2^{\log n} = n$
+- ! $2^{\log n} = n$
 $$= O(n^{\log 3}) \approx O(n^{1.7})$$
 #### Karatsuba's Algorithm
 

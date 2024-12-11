@@ -59,8 +59,6 @@ P_3 + P_4 & P_1 + P_5 - P_3 - P_7
 \end{bmatrix}
 $$
 
-Modern quickest way to matrix multiply: https://deepmind.google/discover/blog/discovering-novel-algorithms-with-alphatensor/
-
 
 ## Application: Finding Triangles
 

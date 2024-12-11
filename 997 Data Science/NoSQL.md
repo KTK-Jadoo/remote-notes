@@ -5,7 +5,7 @@ tags:
 date: 2024-10-29
 source: "[[DATA 101]]"
 ---
-NoSQL is  was a *hip* name for [[Semistructured Data|document stores]].
+NoSQL was a *hip* name for [[Semistructured Data|document stores]].
 
 - Literally, “No SQL used” in database design.
 - Ability to store semi-structured AND unstructured data.

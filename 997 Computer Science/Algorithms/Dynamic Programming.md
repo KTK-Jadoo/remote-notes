@@ -97,6 +97,3 @@ Finding the right subproblem takes creativity and experimentation. But there are
 
 ![[Pasted image 20241030212555.png]]
 
-
-### Knapsack Problem
-

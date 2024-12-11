@@ -52,6 +52,7 @@ Usually code-centric (Spark)
 - Create new files in the lake, catalog files as they go for reuse
 - Often code-centric
 
+
 >[!NOTE] ETLT & the Lakehouse
 >Modern solutions are likely Many-to-Many. Sometimes start with a data lake. Empower data scientists to work on ad-hoc use cases .Allow for datasets that “graduate” to a carefully managed warehouse. Some datasets may directly be loaded into a data warehouse.
 >
