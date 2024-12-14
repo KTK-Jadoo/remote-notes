@@ -28,8 +28,7 @@ dist(v) = min(u,v)∈E {dist(u) + l(u, v)}
 So this algorithm is solving a collection of _subproblems_ $\{dist(u): u \in V\}$.
 We start with the smallest one, $dist(s)$ since we know it to be 0, and we proceed with progressively "larger" subproblems: distances to vertices that that further and further along the linearized DAG. 
 
-So in this general technique, at each node we compute some function of the values of the node's predecessor. If we chose a $\max$ instead of a $\min$ we would compute the _longest paths_
-in the DAG. Or if we multiply instead of adding inside the brackets, we get the path with smallest product of edge lengths.
+So in this general technique, at each node we compute some function of the values of the node's predecessor. If we chose a $\max$ instead of a $\min$ we would compute the _longest paths_ in the DAG. Or if we multiply instead of adding inside the brackets, we get the path with smallest product of edge lengths.
 
 We may not be given a dag, but the dag is _implicit_, i.e. it's nodes are the subproblems we define and it's edges are the dependencies between the subproblems: if in order to solve problem B we need the answer to problem A, there is a (conceptual) edge between (A, B). In this case, A is considered "smaller" than B.
 
@@ -46,12 +45,9 @@ Approach:
 
 ### Longest Increasing Subsequence
 
-Given input is the sequence of numbers: $a_{1}, a_{2}, a_{3}, \dots a_{n}$
-A subsequence is any subset of numbers, taken _in order_, 
-of the form $a_{i_{1}}, a_{i_{2}}, \dots a_{i_{k}}$, where, $1<i_{1}<i_{2}\dots <i_{k}\le n$.
+Given input is the sequence of numbers: $a_{1}, a_{2}, a_{3}, \dots a_{n}$. A subsequence is any subset of numbers, taken _in order_, of the form $a_{i_{1}}, a_{i_{2}}, \dots a_{i_{k}}$, where, $1<i_{1}<i_{2}\dots <i_{k}\le n$.
 
 An _increasing_ subsequence is one where the number are _strictly_ getting larger. 
-
 The task is to find the increasing subsequence of the greatest length.
 
 ![[Pasted image 20241030192220.png]]
@@ -72,7 +68,7 @@ The L-values only tell us the _length_ of the longest subsequence. To recover th
 
 
  >[!note] Why Recursion doesn't work here
- >In divide and conquer, a problem is expressed in term sof subproblems that are substantially smaller, because of which the full recursion tree is only logarithmic depth and a polunomial number of nodes.
+ >In [[Divide and Conquer|divide and conquer]], a problem is expressed in term sof subproblems that are substantially smaller, because of which the full recursion tree is only logarithmic depth and a polunomial number of nodes.
  ><br>
  >In typical dynamic programming, a problem is reduced to only slightly smaller subproblems. Like how $L(j)$ relies on $L(j-1)$. Thus the full recursion tree has polynomial depth and exponential number of nodes. However, most of these nodes are repeats, Efficiency is therefore obtained by enumerating the distinct subproblems and solving them in the right order.
  >
@@ -85,7 +81,7 @@ Edit distance is the minimum number of edits—insertions, deletions, and substi
  There is an ordering on the subproblems, and a relation that shows how to solve a subproblem given the answers to “smaller” subproblems, that is, subproblems that appear earlier in the ordering.
 
 
-##### Common subproblems
+### Common subproblems
 
 Finding the right subproblem takes creativity and experimentation. But there are a few standard choices that seem to arise repeatedly in dynamic programming.
 

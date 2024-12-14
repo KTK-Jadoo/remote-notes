@@ -1,6 +1,8 @@
 ---
 tags:
   - class
+  - ml
+  - math
 website: 
 teacher:
 ---

@@ -1,15 +1,12 @@
 ---
 tags:
-  - algorithms
-date: 2024-10-30
+  - compsci
+date: 2024-12-12
 source: "[[COMPSCI 170]]"
 ---
+# Fibonacci Sequence
 
-[[Divide and Conquer Paradigm]] follows a generic pattern, a problem of size $n$ is solved recursively by $a$ subproblems of size $\frac{n}{b}$ and then combining these answers in $O(n^{d})$ time.
-
-The [[Master Theorem]] can be used to solve for running times of most divide and conquer procedures. 
-
-### Example: The Fibonacci Sequence
+From [[Al Khwarizmi]], further developed and propagandized by 15th century mathematician [[Leonardo Fibonnaci]], 
 
 $$0, 1, 1, 2, 3, 5, 8, 13, 21, 34, . . .$$
 
@@ -21,11 +18,11 @@ $$F_{n} =
 \
       1, \text{ if } n = 1 \\ \\
 \
-      0, \text{ if } n = 1 \\
+      0, \text{ if } n = 0 \\
    \end{cases}
 $$
 
-_Recursive Fibonacci Sequence_ Implementation:
+## Exponential Fibonacci:
 
 ```python
 def fib1(n):
@@ -45,12 +42,14 @@ If $T[n]$ is the number of function calls in execution of F(n),
 	-  # Nodes (n) = # Nodes (n-1 subtree) + # Nodes (n-2 subtree)
 
 $$T[n] = T[n-1] +T[n-2]+1$$
-
-- Calculate Recurrence Relation, or take a guess: $T[n] =$ exponential in $n$.
+We can see that $T(n)\ge F_{n }$
 
 This is because there are a lot of repeated nodes. We should __reuse the computation__.
 
-So intuitively the _Iterative Fibonacci Sequence_,
+Also, $F_{150} \text{ is } \gg 580$ bits, so we can't use 64 bit Integers.
+We need to use [[Big Integer]] data type.
+
+## Polynomial Fibonacci Sequence:
 
 ```python
 def fib2(n):
@@ -70,4 +69,4 @@ def fib2(n):
 ```
 
 $$T[n] = \text{Time taken to create array} + \text{n} \cdot \text{(addition time)}$$
-$$T[n] = O(n \cdot \text{Time for one addition})$$[[Integer Multiplication]] goes into how Time for addition is calculated.
+So $T(n)$ depends on the [[Integer Operations#Integer Addition]] 
