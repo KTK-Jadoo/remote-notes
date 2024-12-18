@@ -1,4 +1,10 @@
-## Directed Acyclic Graphs (DAGs)
+---
+tags:
+  - algorithms
+date: 2024-12-15
+source: "[[COMPSCI 170]]"
+---
+# Directed Acyclic Graphs (DAGs)
 
 #### Definition
 - A **Directed Acyclic Graph (DAG)** is a directed graph with **no directed cycles**.

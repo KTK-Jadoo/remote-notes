@@ -31,8 +31,6 @@ DFS(Graph G):
 		EXPLORE(v)
 ```
 
----
-
 #### Key Observations
 
 - DFS explores as far as possible along each branch before backtracking.
@@ -64,9 +62,6 @@ _Runtime:_ $O(V + E)$ where $V$ is the number of vertices and $E$ is the number 
 #### Conclusion:
 Since both directions of the implication hold, we conclude that `EXPLORE(u)` visits **exactly** the vertices $v$ such that there is a path from $u$ to v.
 
-
----
-
 #### Runtime of DFS
 
 1. **Key Observations**:
@@ -96,10 +91,7 @@ Since both directions of the implication hold, we conclude that `EXPLORE(u)` vis
      - **Forward edges**: Point to a descendant that has already been visited.
      - **Cross edges**: Point between two unrelated parts of the graph.
 
----
-
 #### Pseudocode
-
 ```java
 EXPLORE(vertex v):
 	visited[v] = TRUE

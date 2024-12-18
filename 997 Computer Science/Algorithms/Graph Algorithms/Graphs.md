@@ -41,4 +41,5 @@ For large sparse graphs, matrices take too much space. For large dense graphs, l
      - Every pair of vertices within a subset is connected.
      - No vertex in one subset is connected to a vertex in another subset.
 
-Connections can be tested by [[Depth First Search]]
+Connections can be tested by [[Depth First Search]].
+
