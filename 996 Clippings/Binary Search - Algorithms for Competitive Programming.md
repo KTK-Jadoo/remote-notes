@@ -36,7 +36,7 @@ Logarithmic number of steps is drastically better than that of linear search. Fo
 
 ### Lower bound and upper bound¶
 
-It is often convenient to find the position of the first element that is greater or equal than (called the lower bound of in the array) or the position of the first element that is greater than (called the upper bound of ) rather than the exact position of the element.
+It is often convenient to find the position of the first element that is greater or equal than (called the lower bound of in the array) or the position of the first element that is greater than (called the upper bound of) rather than the exact position of the element.
 
 Together, lower and upper bounds produce a possibly empty half-interval of the array elements that are equal to . To check whether is present in the array it's enough to find its lower bound and check if the corresponding element equates to .
 
@@ -52,7 +52,7 @@ Finally, to be specific about the value of we pick, we will stick with .
 
 Then the implementation could look like this:
 
-```
+```java
 ... // a sorted array is stored as a[0], a[1], ..., a[n-1]
 int l = -1, r = n;
 while (r - l > 1) {
