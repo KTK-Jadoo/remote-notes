@@ -1,27 +1,38 @@
-Dear Hiring Manager,
+
+**Hiring Team** <br>
+
+The Walt Disney Company <br>
+
+Orlando, FL <br>
 
   
 
-I am excited to apply for the **2025 Summer Intern - Data Analytics** position at Roche. With hands-on experience in data engineering, analytics, and automation, I am eager to contribute to Roche’s mission of advancing science to improve healthcare outcomes. My background in data science, combined with my passion for deriving actionable insights from complex datasets, aligns perfectly with this role.
+Dear Hiring Team,
 
   
 
-At **Seva Foundation**, I designed and implemented PostgreSQL databases and optimized data pipelines using **dbt**, ensuring seamless data validation and cleaning across global datasets. I further enhanced team communication by integrating real-time pipeline updates with Slack. Additionally, during my tenure at **BLCK UNICRN**, I developed dynamic pricing models in **Python** and conducted market analyses to optimize subscription tier segmentation.
+I am thrilled to apply for the Labor Systems Internship with Disney Experiences. As a senior at UC Berkeley majoring in Data Science with a focus on Applied Mathematics, I am eager to combine my technical expertise and passion for data-driven decision-making to contribute to the innovation behind Disney’s legendary guest service.
 
   
 
-My project work, such as creating **Steam-lit**, a personalized game recommendation system, demonstrates my ability to utilize tools like **BERT**, **LDA**, and **Streamlit** to transform raw data into interactive user insights. Similarly, developing **Philosofy**, a debate simulator powered by **Llama 3.1**, reflects my proficiency in deploying scalable backend systems using **Flask** and integrating advanced NLP models.
+My experience spans database design, data visualization, and web development, aligning perfectly with the responsibilities of this role. At Seva Foundation, I independently developed a PostgreSQL database and leveraged dbt to streamline reporting pipelines spanning five continents. This hands-on project not only enhanced my technical skills but also reinforced the importance of creating solutions that scale and empower users globally.
 
   
 
-I am confident that my technical expertise in **Python**, **SQL**, and data visualization tools such as **Tableau** and **Power BI**, along with my ability to communicate complex insights effectively, will allow me to contribute meaningfully to Roche’s data-driven initiatives.
+In addition, my recent project, _Massimo Fitness Tracker_, showcases my ability to integrate backend server management, frontend web design, and interactive dashboard creation into a seamless user experience. By utilizing Python, Flask, and TailwindCSS, I built a platform that tracks workout progress and generates actionable insights—skills that directly relate to the dynamic nature of the Labor Systems team.
 
   
 
-Thank you for considering my application. I look forward to the opportunity to contribute to Roche’s innovative work in healthcare and would welcome the chance to discuss how my skills align with your goals.
+What excites me most about this opportunity is the chance to contribute to Disney’s commitment to its Cast Members by developing and sustaining applications that optimize labor systems. I deeply admire Disney’s culture of innovation and its ability to create magical experiences through exceptional teamwork and technology.
 
   
 
-Sincerely,
+Thank you for considering my application. I look forward to the opportunity to discuss how my technical expertise, problem-solving skills, and passion for Disney’s mission can contribute to the continued success of the Labor Systems team.
 
-**Kartikeya Sharma**
+
+Warm regards, <br>
+**Kartikeya Sharma** <br>
+University of California, Berkeley '25 <br>
+United World College in Mostar '21' <br>
+[LinkedIn](https://www.linkedin.com/in/kartikae/) | [GitHub](https://github.com/KTK-Jadoo) <br>
+[Email: jadoo@berkeley.edu](mailto:jadoo@berkeley.edu) | Phone: +1 (510) 984 8388 <br>
