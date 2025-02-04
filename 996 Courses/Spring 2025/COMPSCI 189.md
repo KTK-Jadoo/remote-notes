@@ -21,4 +21,5 @@ Topics include
 ## Table of Contents
 
 1. [[Classification]]
-2. 
+	1. [[Support Vector Machines]]
+	2. 

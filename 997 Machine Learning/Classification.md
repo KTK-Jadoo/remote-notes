@@ -3,7 +3,14 @@ tags:
   - ml
   - data
 date: 2025-01-22
-source: "[[The Elements of Statistical Learning.pdf]]"
+source: "[[COMPSCI 189]]"
 ---
 # classification
+
+[[Linear Classifiers]]
+
+## $k$ - Nearest Neighbors
+
+
+## Support Vector Machines
 

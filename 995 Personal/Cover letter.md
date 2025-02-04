@@ -1,36 +1,31 @@
-
-**Hiring Team** <br>
-
-The Walt Disney Company <br>
-
-Orlando, FL <br>
-
-  
-
 Dear Hiring Team,
 
   
 
-I am thrilled to apply for the Labor Systems Internship with Disney Experiences. As a senior at UC Berkeley majoring in Data Science with a focus on Applied Mathematics, I am eager to combine my technical expertise and passion for data-driven decision-making to contribute to the innovation behind Disney’s legendary guest service.
+I am excited to apply for the Software Engineer, Applied AI position at Opto Investments. The opportunity to contribute to your mission of empowering financial advisors through innovative AI solutions aligns perfectly with my technical expertise, passion for applied machine learning, and enthusiasm for solving meaningful problems.
 
   
 
-My experience spans database design, data visualization, and web development, aligning perfectly with the responsibilities of this role. At Seva Foundation, I independently developed a PostgreSQL database and leveraged dbt to streamline reporting pipelines spanning five continents. This hands-on project not only enhanced my technical skills but also reinforced the importance of creating solutions that scale and empower users globally.
+During my academic journey and professional experiences, I have developed a robust foundation in software development, data engineering, and AI model integration. As a part of the **Massimo Fitness Tracker** project, I engineered scalable data pipelines and APIs to integrate AI models for fitness tracking and recommendations. This work required not only technical expertise in **Python**, **SQL**, and **REST API development**, but also a keen understanding of designing systems for both reliability and scalability—skills that align closely with the demands of this role.
 
   
 
-In addition, my recent project, _Massimo Fitness Tracker_, showcases my ability to integrate backend server management, frontend web design, and interactive dashboard creation into a seamless user experience. By utilizing Python, Flask, and TailwindCSS, I built a platform that tracks workout progress and generates actionable insights—skills that directly relate to the dynamic nature of the Labor Systems team.
+My time at **Seva Foundation** reinforced my ability to handle complex projects with a calm and solution-oriented mindset. There, I contributed to designing workflows that optimized data-driven decision-making, enabling the organization to expand its reach and improve operational efficiencies. My collaborative work style and ability to communicate technical insights effectively allowed me to bridge the gap between technical and non-technical stakeholders, an essential aspect of developing customer-centric AI solutions.
 
   
 
-What excites me most about this opportunity is the chance to contribute to Disney’s commitment to its Cast Members by developing and sustaining applications that optimize labor systems. I deeply admire Disney’s culture of innovation and its ability to create magical experiences through exceptional teamwork and technology.
+I am particularly drawn to Opto’s focus on leveraging AI to transform investment due diligence and strategy. With hands-on experience in **fine-tuning AI models**, **prompt engineering**, and building robust data systems, I am eager to apply my knowledge to drive forward your vision. My familiarity with **AWS cloud infrastructure**, **data structures**, and **algorithms**, along with a deep curiosity for financial markets, ensures I can hit the ground running.
 
   
 
-Thank you for considering my application. I look forward to the opportunity to discuss how my technical expertise, problem-solving skills, and passion for Disney’s mission can contribute to the continued success of the Labor Systems team.
+What sets me apart is my calm approach to problem-solving, an intrinsic drive for innovation, and a commitment to building solutions that have real-world impact. I am energized by the prospect of collaborating with Opto’s forward-thinking team to create AI systems that enhance financial decision-making and provide advisors with tools to transform their clients’ outcomes.
+
+  
+
+I would be honored to bring my expertise and passion to Opto Investments. Thank you for considering my application, and I look forward to the opportunity to contribute to your team.
 
 
-Warm regards, <br>
+Warm regards,<br>
 **Kartikeya Sharma** <br>
 University of California, Berkeley '25 <br>
 United World College in Mostar '21' <br>
