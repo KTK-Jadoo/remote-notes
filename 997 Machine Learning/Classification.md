@@ -5,12 +5,9 @@ tags:
 date: 2025-01-22
 source: "[[COMPSCI 189]]"
 ---
-# classification
+# Classification
+
+## How to Classify? (Generally)
 
 [[Linear Classifiers]]
-
-## $k$ - Nearest Neighbors
-
-
-## Support Vector Machines
 

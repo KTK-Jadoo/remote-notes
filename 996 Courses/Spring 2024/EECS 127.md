@@ -25,7 +25,7 @@ This course offers an introduction to optimization models and their applications
 9. [[SVD]]
 10. [[Low-Rank Approximation]]
 11. [[Block Matrix Identities]]
-12. [[Vector Calculus]]
+12. [[Quick Linear Algebra Recap]]
 13. [[Taylor's Theorem]]
 14. [[Main Theorem]]
 15. [[Matrix Calculus]]

@@ -1,80 +1,73 @@
 
 Warm up: Band cycles, Rotator Cuff, Plate Pause Squat
-Post Workout: 10k Steps everyday
+Post Workout: Hip Gurdle + 10k Steps everyday
 
-### PPLA #1
+### PPLA 
 
-Pull: (__Saturday__)
-1. Deadlifts (Romanian)
+Pull: 1
+1. One Arm Lat Pulldown
 2. Lat Pulldown
-3. Single Arm Cable Rows
-4. Trap Shrugs
-5. Rear Delt Deck
+3. Meadows Row
+4. Rear Delt Deck
+5. Trap Shrugs
+6. Bicep Curl (Cable)
 
-Push: (__Friday__)
-1. Incline Bench Press
-2. Overhead Tricep Pushdown
-3.  Peck Deck
-4. Cable Lateral Raise
-5. Tricep Pushdown
-
-Arms: (__Wednesday__)
-1. Bicep Cable Curl
-2.  Hammer Curls
-3. Tricep Pushdowns
-4. Dumbbell Lateral Raise
-5. Preacher Curls
-
-Legs: (__Monday__)
-1. Leg Press
-2. Leg Curls
-3. Leg Extension
-4. Hip Thrust
-5. Calves
-
-
-
----
-
-Rest
-
----
-
-### PPLA #2
-
-Pull: (__Saturday__)
-1. Pull Ups + Chin Ups (2+2)
-2. Dumbbell Rows
-3. Lat Pullover
-4. Rear Delt Peck deck
+Pull: 2
+1. One Arm Lat Pulldown
+2. Pull Ups + Chin Ups (2+2)
+3. T bar Rows
+4. Rear Delt deck
 5. Trap Shrug
+6. Bicep Curl (Preacher)
+---
 
-Push: (__Friday__)
+
+Push: 1
 1. Incline Dumbbell Press
-3. Machine Press
-4. Dips
-5. Barbell Overhead Press
-6. Chest Flies
+2. Machine Shoulder Press
+3. Overhead Tricep Push
+4. Chest fly
+5. Cable Lateral Raise
+6. Push Ups
 
-Arms: (__Wednesday__)
+
+Push: 2
+1. Incline Bench Press
+2. Machine Shoulder Press
+3. Chest Flies
+4. Tricep Pushdown
+5. Cable Lateral Raise
+6. Push Ups
+---
+
+
+Arms: 1
 1. Bicep Cable Curl
 2.  Hammer Curls
 3. Tricep Pushdowns
 4. Dumbbell Lateral Raise
 5. Preacher Curls
 
-Legs:(__Monday__)
-1. Barbell Squats
-2. Leg Curls
-3. Leg Extension
-4. Hyperextension
-5. Adductor / Abductor
-
-
-
-
 ---
 
-Rest
 
----
+Legs: 1
+1. Deadlifts (Romanian)
+2. Lunges
+3. Adductor / Abductor
+4. Hip Thrust
+5. Nordic Ham Curls
+6. Leg Raise
+
+Legs: 2
+1. Leg Curls
+2. Barbell Squats
+3. Knee Extension
+4. Hip Flexor
+5. 
+6. Calves
+
+
+
+
+
